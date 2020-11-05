@@ -3,4 +3,5 @@
 
 # 2. 사용방법
 <code>$ chmod +x Calendar.sh</code>
-```./Calendar [month] [year] or [year] [month]```
+
+```$ ./Calendar [month] [year] or [year] [month]```
