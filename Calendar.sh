@@ -19,7 +19,7 @@ sum=0                                   #그 해의 달만 출력할때 시작 �
 
 if [ $# -eq 0 ]         #입력값 없이 실행만 시켯을경우 다음과 같이 초기화를 해줍니다.
 then
-        year=2015
+        year=2020
         month=0
 fi
 
@@ -148,5 +148,5 @@ then
         done                                    #해당 년도의 달만 출력하고 끝나는 곳이라 변수값들에 대한초기화를 안넣었습니다.
         echo
 else
-        echo "명령어 사용 법 : ./cal1 [year] [day] or [day] [year]"     #인자값이 3개 이상일경우엔 다음과 같은 사용방법을 출려해주는 echo문 입니다.
+        echo "명령어 사용 법 : ./cal1 [year] [month] or [month] [year]"     #인자값이 3개 이상일경우엔 다음과 같은 사용방법을 출려해주는 echo문 입니다.
 fi
